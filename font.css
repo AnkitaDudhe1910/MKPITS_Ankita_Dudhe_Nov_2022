@@ -1,0 +1,18 @@
+h2{  
+     font-family:Calibri;
+      font-style:bold;
+      font-size:large;
+      font-weight-900;
+      }
+h3{  
+     font-family:candara;
+      font-style:italic;
+      font-size:x-large; 
+      font-weight-bold;
+      }
+p{  
+     font-family:courier;
+      font-style:Normal;
+      font-size:15; 
+      font-weight-normal;
+      }
