@@ -1,0 +1,17 @@
+h2 {  
+     text-transform :uppercase;
+     text-decoration : underline;
+     text-align : left;
+      text-indent : 200px;
+      }
+h3 {
+      text-transform : lowercase;
+      text-decoration : overline;
+      text-align : right;
+       text-indent : 50%;
+      }
+p  {
+      text-transform : captalize;
+      text-decoration : line-through;
+      text-align :  center;
+      }
