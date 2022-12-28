@@ -1,0 +1,16 @@
+h2{  
+    border-style :dotted; 
+    border-color:blue;
+    border-width:medium;
+      }
+h3{  
+    border-style :ridge; 
+    border-color:green;
+    border-width:thick;
+      }
+p {  
+    border-style :solid; 
+    border-color:red;
+    border-width:thin;
+ 
+      }
