@@ -1,0 +1,21 @@
+h2
+     {  
+    border:solid;
+    border-width:medium; 
+     margin:20%;
+
+      }
+h3 
+     {  
+     border:solid;
+      border-width:medium;
+       margin-left:30%
+       letter-spacing:10;
+      }
+ p 
+      {  
+     border:solid;
+     border-width:medium;
+     word-spacing:20%;
+   margin-right:30%
+      }
