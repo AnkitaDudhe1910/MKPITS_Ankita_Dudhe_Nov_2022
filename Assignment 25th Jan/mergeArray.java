@@ -1,0 +1,35 @@
+class mergeArray
+{
+  public static void main(String [ ]args)
+  {
+   int [] a ={4,8,7};
+
+    int [] b = {6,2,3};
+
+   int a1 = a.length;
+   //  System.out.println(a1);
+     int b1 = b.length;
+   //  System.out.println(b1);
+     int c1 = a1 + b1;
+   //  System.out.println(c1);
+
+     int [] c = new int [c1];
+
+
+     for(int i =0;i<a1;i
+     ++)
+     {
+   	  c[i] = a[i];
+
+     }
+   for(int i =0;i<b1;i++)
+     {
+   	  c[a1+i] = b[i];
+
+     }
+     for(int i =0;i<c.length;i++)
+       {
+         System.out.println(" "+c[i]);
+    }
+  }
+}
