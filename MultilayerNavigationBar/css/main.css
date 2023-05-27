@@ -1,0 +1,66 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: lightgray;
+}
+nav{
+  border: 1px solid darkred;
+  height: 76px;
+  background: darkcyan;
+
+}
+.main{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  font-size: 28px;
+}
+.list-1{
+  display: inline-block;
+  margin-left: -6px;
+  position: relative;
+}
+.list-2{
+  border-top: 1px ridge dimgray;
+  border-bottom: 1px ridge dimgray;
+}
+.list-3{
+  border-top: 1px ridge dimgray;
+  border-bottom: 1px ridge dimgray;
+}
+.child{
+  list-style: none;
+  position: absolute;
+  display: none;
+  right: 0;
+}
+.sub-child{
+  list-style: none;
+  position: absolute;
+  display: none;
+  top: 180px;
+  left: 186px;
+
+}
+a{
+  margin: 0;
+  padding: 22px 50px 22px 50px;
+  text-align:left;
+  background: darkcyan;
+  color: whitesmoke;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+a:hover{
+  background: #FF5722;
+  cursor: pointer;
+}
+.list-1:hover .child{
+  display: block;
+}
+
+.list-2:hover .sub-child{
+  display: block;
+}
