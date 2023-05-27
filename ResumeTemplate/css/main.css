@@ -1,0 +1,71 @@
+body{
+  width: 750px;
+  height: 950px;
+  margin-left:22%;
+
+}
+.header{
+  display: flex;
+  background-color: #DEDCDD;
+}
+.navbar{
+height: 949px;
+  width: 280px;
+
+  background-color: #1D7472;
+  color: lightyellow;
+}
+.heading{
+  position: relative;
+  margin: 10px 25px;
+
+}
+.circular-box{
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px 3px black;
+}
+.image{
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 25px;
+}
+.contact{
+  margin-top: 10px;
+}
+.reference{
+  display: flex;
+  justify-content: space-between;
+}
+.experience{
+  position: relative;
+  margin-top: 10px;
+}
+.ref-ref{
+  position: relative;
+  margin-top: 20px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.para{
+  font-size: 20px;
+}
+.pa-ra{
+  font-size: 16px;
+}
+.name-2{
+  font-size: 32px;
+}
+
+@media screen and(max-width: 700px) {
+
+}
