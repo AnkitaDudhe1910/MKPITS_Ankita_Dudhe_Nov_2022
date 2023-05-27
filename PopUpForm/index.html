@@ -1,0 +1,293 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>POP UP FORM</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="main-section">
+<!-- header start-->
+  <header class="deal-details">
+     <p class="header">Deal Details</p>
+  </header>
+<!--  header end-->
+<!-- fieldstate start-->
+  <div class="deal-details-2">
+       <fieldset class="fieldset">
+              <legend class="legend">Deal Details</legend>
+<!--         start display-->
+         <div class="display">
+<!--           start first div-->
+             <div class="first-div" id="section-1">
+                <p><strong>Section-1</strong></p>
+             </div>
+             <div class="first-div" id="counterpart">
+                <p><strong>Counterpart:</strong></p>
+             </div>
+             <div class="first-div" id="section-summary">
+                <p><strong>Section Summary : 3/1/2023 12:00:00AM - 3/31/2023 12:00:00 AM</strong></p>
+             </div>
+<!--           end first div-->
+         </div>
+<!--         end display-->
+<!--         start section-2-->
+         <div class="section-2">
+<!--           start second-div-->
+           <div class="second-div">
+             <p class="p1">
+               Buy Sell</p>
+             <p class="p-radio">
+               <input type="radio" class="radio" id="radio-1">Buy
+               <input type="radio" class="radio" id="radio-2">Sell
+             </p>
+             <p class="p2">Commodity
+               <br>
+               <select class="select">
+                 <option></option>
+               </select>
+             </p>
+             <p class="p3">Portfolio
+               <br>
+               <select class="select">
+                 <option></option>
+               </select>
+             </p>
+             <p class="p4">Book
+               <br>
+               <select class="select" id="book">
+                 <option></option>
+               </select>
+             </p>
+           </div>
+<!--           end second-div-->
+<!--           start third div-->
+           <div class="third-div">
+             <p class="p5">
+               Material <br>
+               <select class="select">
+                 <option></option>
+               </select>
+             </p>
+             <p class="p6">
+              Specs <br>
+               <select class="select">
+                 <option></option>
+               </select>
+             </p>
+             <p class="p7">
+               Strategy <br>
+               <select class="select">
+                 <option></option>
+               </select>
+             </p>
+             <p class="p8">
+               Strategy Description <br>
+               <input type="text" class="text">
+             </p>
+           </div>
+<!--           end third div-->
+<!--           start fourth div-->
+           <div class="fourth-div">
+<!--             start of additional details-->
+                 <div class="addition-details">
+                    <p class="p-add">
+                      Additional Details <br>
+                     <input type="text" class="add-details">
+                    </p>
+                 </div>
+<!--             end of additional details-->
+<!--             start of internal details-->
+                <div class="internal-details">
+<!--                  start of fieldset-->
+                   <fieldset class="fieldset-1">
+                      <legend class="int-deal">Internal Deal Details</legend>
+                       <div class="values-1">
+                          <p>
+                            Int Portfolio <br>
+                            <select class="select-1">
+                              <option></option>
+                            </select>
+                          </p>
+                         <p class="int-book">
+                           Int Book <br>
+                           <select class="select-1" id="int-book">
+                             <option></option>
+                           </select>
+                         </p>
+                       </div>
+                     <div class="values-2">
+                       <p>
+                         Int Strategy <br>
+                         <select class="select-1">
+                           <option></option>
+                         </select>
+                       </p>
+                       <p class="int-strategy">
+                         Int Strategy Description <br>
+                         <input type="text" class="select-1" id="int-des">
+                       </p>
+                     </div>
+                   </fieldset>
+<!--                  end of fieldset-->
+                </div>
+<!--             end of internal details-->
+           </div>
+<!--           end fourth div-->
+         </div>
+<!--         end of sectin-2-->
+<!--         start of section 3-->
+        <section class="section-3-div">
+<!--             start of values-->
+
+            <div class="values">
+<!--              start of quantity-->
+                <div class="quantity">
+                    <p class="qua-1">
+                       Quantity <br>
+                        <input type="text" class="qu1">
+                    </p>
+                    <p class="qua-2">
+                        Quantity UOM <br>
+                    <select class="select-qua">
+                       <option></option>
+                    </select>
+                   </p>
+                  <p class="qua-3">
+                   Min Quantity <br>
+                    <input type="text" class="qu1">
+                  </p>
+                  <p class="qua-4">
+                   Max Quantity <br>
+                    <input type="text" class="qu1">
+                  </p>
+                  <p class="qua-5">
+                   Expected Quantity <br>
+                    <input type="text" class="qu1">
+                  </p>
+                  <p class="qua-6">
+                    Storage <br>
+                    <select class="select-qua">
+                      <option></option>
+                    </select>
+                  </p>
+                </div>
+<!--              end of quantity-->
+<!--              start type div-->
+              <div class="type">
+                <p class="type-1">
+                Tolerance Type <br>
+                  <select class="select-type">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="type-2">
+                  Buyer/Seller/Op Tol <br>
+                  <select class="select-type">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="type-3">
+                  Above <br>
+                  <input type="number" class="num">
+                </p>
+                <p class="type-4">
+                  Below <br>
+                  <input type="number" class="num">
+                </p>
+                <p class="type-5">
+                  Incoterms <br>
+                  <select class="select-type">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="type-6">
+                  Mot Type <br>
+                  <select class="select-type">
+                    <option></option>
+                  </select>
+                </p>
+              </div>
+<!--              end type div-->
+<!--              start location div-->
+              <div class="location">
+                <p class="loc-1">
+                  Location <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="loc-2">
+                  Load Location <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="loc-3">
+                  Discharge Location <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="loc-4">
+                  Load Port <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="loc-5">
+                  Discharge Port <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+                <p class="loc-6">
+                  Pipeline <br>
+                  <select class="select-loc">
+                    <option></option>
+                  </select>
+                </p>
+              </div>
+<!--              end location div-->
+<!--              start od dates-->
+              <div class="date">
+                <fieldset class="fieldset-3">
+                  <legend class="com">Commitment Dates</legend>
+                  <div class="date-s-e">
+                     <p id="s-date">
+                       Start Date <br>
+                       <input type="date" class="date">
+                     </p>
+                    <p id="e-date">
+                      End Date <br>
+                      <input type="date" class="date" >
+                    </p>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+
+<!--          end of values-->
+        </section>
+<!--         end of section 3-->
+       </fieldset>
+    <!--  fieldstate end-->
+  </div>
+
+<!-- footer start-->
+  <footer class="footer">
+    <span id="span-1">
+      <i class="fa-sharp fa-solid fa-print"></i>
+    </span>
+    <span id="span-2">
+      <i class="fa-sharp fa-solid fa-power-off"></i>
+    </span>
+  </footer>
+</section>
+</body>
+</html>
