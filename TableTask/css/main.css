@@ -1,0 +1,14 @@
+table{
+  border-color:black;
+}
+th{
+  width: 100px;
+  height: 30px;
+  background-color: #4A9529;
+  color: white;
+}
+td{
+  text-align: center;
+  height: 25px;
+  background-color: #A7D883;
+}
